@@ -1,7 +1,9 @@
 export default function FooterPage() {
   return (
-    <div>
-      https://junghyeonsu.com/
-    </div>
+    <footer className="text-center my-10">
+      © 2024. junghyeonsu all rights reserved.
+    </footer>
   );
 }
+
+// https://junghyeonsu.com/

@@ -3,6 +3,8 @@ import Header from "./common/Header";
 import Nav from "./common/Nav";
 import PostPage from "./components/post";
 import HilightComponent from "./components/Highlight";
+import FooterPage from "./common/Footer";
+import PagenationComponent from "./components/Pagenation";
 
 export default function Home() {
   return (
@@ -14,20 +16,37 @@ export default function Home() {
         <Link href="/posts/hello-1">
           <PostPage />
         </Link>
-        <PostPage />
-        <PostPage />
-        <PostPage />
-        <PostPage />
-        <PostPage />
-        <PostPage />
-        <PostPage />
-        <PostPage />
-        <PostPage />
+        <Link href="/posts/hello-2">
+          <PostPage />
+        </Link>
+        <Link href="/posts/hello-3">
+          <PostPage />
+        </Link>
+        <Link href="/posts/hello-4">
+          <PostPage />
+        </Link>
+        <Link href="/posts/hello-5">
+          <PostPage />
+        </Link>
+        <Link href="/posts/hello-6">
+          <PostPage />
+        </Link>
+        <Link href="/posts/hello-7">
+          <PostPage />
+        </Link>
+        <Link href="/posts/hello-8">
+          <PostPage />
+        </Link>
+        <Link href="/posts/hello-9">
+          <PostPage />
+        </Link>
+        <Link href="/posts/hello-10">
+          <PostPage />
+        </Link>
+        
       </div>
-      <h2 className="ml-4 text-2xl">WEB</h2>
-      <br />
-      <p className="ml-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam consequuntur eius architecto ipsum similique ut vero nam cupiditate, alias, quidem aperiam, id perspiciatis fugit soluta et saepe illo odit dolorum.</p>
-      <p>hello world</p>
+      <PagenationComponent />
+      <FooterPage />
     </div>
   );
 }
