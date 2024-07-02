@@ -2,13 +2,22 @@ import Link from "next/link";
 import Header from "./common/Header";
 import Nav from "./common/Nav";
 import PostPage from "./components/post";
+import HilightComponent from "./components/Highlight";
 
 export default function Home() {
   return (
     <div>
       <Header />
       <Nav />
-      <div className="grid grid-cols-[400px,400px] gap-x-6 max-w-4xl mx-auto">
+      <HilightComponent />
+      <div className="grid gap-x-6 mx-auto md:grid-cols-[400px,400px] justify-center">
+        <Link href="/posts/hello-1">
+          <PostPage />
+        </Link>
+        <PostPage />
+        <PostPage />
+        <PostPage />
+        <PostPage />
         <PostPage />
         <PostPage />
         <PostPage />

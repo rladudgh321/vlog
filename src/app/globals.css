@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.blog-title {
+  @apply text-6xl text-center
+}
+
+.blog-date {
+  @apply p-2 border-4 border-slate-400 inline rounded-lg font-semibold
+}
