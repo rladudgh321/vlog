@@ -26,7 +26,7 @@ export default function CommentComponent() {
       </div>
 
       <div className="border border-slate-300 my-10">
-        <textarea name="" id="" cols="30" rows="10" placeholder="로그인하고 댓글 작성하기" className="p-5 w-full" />
+        <textarea placeholder="로그인하고 댓글 작성하기" className="p-5 w-full" />
         <div>
           <button className="border border-slate-300 p-5 float-right mt-2">작성하기</button>
         </div>

@@ -14,7 +14,13 @@ import { Pagination } from 'swiper/modules';
 export default function HilightComponent() {
   return (
     <div className="">
-      <h1 className='text-4xl font-semibold ml-5 mb-5'>HIGH LIGHT</h1>
+      <div className='flex items-center justify-between px-4'>
+        <h1 className='text-4xl font-semibold ml-5 mb-5'>HIGH LIGHT</h1>
+        <div className="flex flex-row-reverse gap-x-5  my-4">
+            <div className="blog-date">태그 종류</div>
+            <div className="blog-date">2024.02.03</div>
+        </div>
+      </div>
        <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
           <SwiperSlide>
             <div className="relative bg-center bg-cover rounded-3xl bg-[url('https://cdn.pixabay.com/photo/2023/11/04/09/23/bananas-8364511_1280.jpg')]">
@@ -60,13 +66,7 @@ export default function HilightComponent() {
               </div>
             </div>
           </SwiperSlide>
-          
       </Swiper>
-      
-      <div className="flex flex-row-reverse gap-x-5 w-[768px] mx-auto my-4">
-          <div className="blog-date">태그 종류</div>
-          <div className="blog-date">2024.02.03</div>
-      </div>
     </div>
   );
 }

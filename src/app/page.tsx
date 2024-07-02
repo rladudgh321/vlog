@@ -12,6 +12,8 @@ export default function Home() {
       <Header />
       <Nav />
       <HilightComponent />
+      <br />
+      <hr />
       <div className="grid gap-x-6 mx-auto md:grid-cols-[400px,400px] justify-center">
         <Link href="/posts/hello-1">
           <PostPage />
