@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-    <nav>
+    <nav className="mt-10">
       <h2 className="blog-title">전체 보기</h2>
       <ol className="flex flex-wrap w-[600px] justify-center mx-auto my-10 text-lg font-medium">
         <li className="inline-block p-2">전체보기</li>
